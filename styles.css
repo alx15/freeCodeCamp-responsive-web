@@ -1,12 +1,40 @@
 h1, h2, p {
     text-align: center;
 }
-body {
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);  
-}
 
 .main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    background-color: grey;
+}
+
+.positions p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.companies {
+    text-align: left;
+    width: 25%;
+}
+
+.details {
+    text-align: right;
+    width: 74%;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
 }
